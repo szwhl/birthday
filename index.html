@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="white">
+		<meta name="apple-mobile-web-app-capable" content="no">
+		<title>生日快乐呀</title>
+		<script type="text/javascript" src="resource/js/jquery-1.10.1.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="resource/css/index.css" />
+		<link rel="stylesheet" type="text/css" href="resource/css/scale.css" />
+		<link rel="stylesheet" type="text/css" href="resource/css/animate.min.css" />
+		<script type="text/javascript">
+			(function(doc, win) {
+				var docEl = doc.documentElement;
+				resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+					recalc = function() {
+						var clientWidth = docEl.clientWidth;
+						if (!clientWidth) return;
+						if (clientWidth >= 750) {
+							docEl.style.fontSize = '100px';
+						} else {
+							docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+						}
+					};
+
+				if (!doc.addEventListener) return;
+				win.addEventListener(resizeEvt, recalc, false);
+				doc.addEventListener('DOMContentLoaded', recalc, false);
+			})(document, window);
+		</script>
+	</head>
+	<body>
+		<div class="wraper list">
+			<div class="wrap wraper1">
+				<audio id="music" class="media-audio" src="Endless.mp3" preload loop="loop"></audio>
+				<div class="music_box">
+					<img src="resource/images/icon.png" id="music_con">
+				</div>
+				<img src="resource/images/img1.jpg">
+				<img src="resource/images/hd.png" class="hd">
+			</div>
+			<div class="wrap wraper2">
+				<div class="wow animate__animated animate__slideInLeft">
+					<strong>一、与牛共舞智能投顾服务，您加入后</strong>
+					<p>1、加入与牛共舞团队，<span class="sp">12600/一个季度服务期</span></p>
+					<p>2、<span class="sp">手把手实盘教学，盘中通知，</span> 给到个股操作策略建议，教学名称、代码+教学买卖点+教学仓位建议+持续跟踪</p>
+					<p>3、与牛共舞APP<span class="sp">弹窗提醒</span></p>
+					<p>4、<span class="sp">内部服务全部免费使用</span>（视频教学、软件指标使用权限、智能手环、优选基金组合建议等），后续无任何其他费用</p>
+					<p>5、无需更换现有证券账户，<span class="sp">无操作资金门槛</span>。自由交易，轻松学习</p>
+					<p>6、安排专业资深内部服务专员<span class="sp">教学服务跟踪</span></p>
+				</div>
+
+				<p class="wow animate__slideInRight animate__animated"><img src="resource/images/img2.jpg"></p>
+				<strong class="wow animate__animated animate__slideInLeft">二、付费可以获得什么？</strong>
+				<div style="overflow: hidden;margin-bottom: 20px;" class="wow animate__animated animate__slideInLeft">
+					<div class="left">
+						<img src="resource/images/img3.jpg">
+					</div>
+					<div class="right">
+						<p>
+							<span
+								style="display: inline-block;width: 10px;height: 10px;background-color: rgb(252, 79, 82);"></span>
+							<span style="color:rgb(252, 79, 82);font-size: 12px;">专业教学</span>
+						</p>
+						<p>
+							style="border-bottom: 1px double #000000;border-top:1px double #000000 ;line-height: 32px;font-size: 18px;color: rgb(0,0,0);font-weight: 600;">
+							学什么</p>
+						<p style="color: rgb(115,113,113);font-weight: 400;">
+							<span
+								style="font-size: 14px;">教学案例包括：</span><br>-案例名称<br>-案例代码<br>-基本面分析<br>-技术面分析<br>-教学研报<br>-止盈止损位提示
+						</p>
+						<p style="margin-top: 20px;">深度投研、优中选优<br>只给你高质量的教学服务</p>
+					</div>
+				</div>
+				<div style="overflow: hidden;margin-bottom: 20px;" class="wow animate__animated animate__slideInRight">
+					<div class="left">
+						<img src="resource/images/img4.jpg">
+					</div>
+					<div class="right">
+						<p>
+							<span
+								style="display: inline-block;width: 10px;height: 10px;background-color: rgb(252, 79, 82);"></span>
+							<span style="color:rgb(252, 79, 82);font-size: 12px;">智能跟踪</span>
+						</p>
+						<p
+							style="border-bottom: 1px double #000000;border-top:1px double #000000 ;line-height: 32px;font-size: 18px;color: rgb(0,0,0);font-weight: 600;">
+							教学提醒</p>
+						<p style="color: rgb(115,113,113);font-weight: 400;">
+							下载与牛共舞APP后，可以通过APP自动弹窗、手环震动等方式进行教学提醒。
+						</p>
+						<p style="margin-top: 20px;">无论是新增案例、案例跟踪、案例预警都会及时进行推送，智能跟踪，无忧教学</p>
+					</div>
+				</div>
+				<div style="overflow: hidden;margin-bottom: 20px;" class="wow animate__animated animate__slideInLeft">
+					<div class="left">
+						<img src="resource/images/img51.jpg">
+					</div>
+					<div class="right">
+						<p>
+							<span
+								style="display: inline-block;width: 10px;height: 10px;background-color: rgb(252, 79, 82);"></span>
+							<span style="color:rgb(252, 79, 82);font-size: 12px;">安心省心</span>
+						</p>
+						<p
+							style="border-bottom: 1px double #000000;border-top:1px double #000000 ;line-height: 32px;font-size: 18px;color: rgb(0,0,0);font-weight: 600;">
+							教学提醒</p>
+						<p style="color: rgb(115,113,113);font-weight: 400;">
+							与牛共舞APP智能弹窗功能会自动提示新增案例、案例动态、取关教学等信息.
+						</p>
+						<p style="margin-top: 20px;">同时，您也将拥有自己的资深服务专员，重要问题可以及时与他进行沟通</p>
+					</div>
+				</div>
+				<div style="overflow: hidden;margin-bottom: 20px;" class="wow animate__animated animate__slideInRight">
+					<div class="left">
+						<img src="resource/images/img6.jpg">
+					</div>
+					<div class="right">
+						<p>
+							<span
+								style="display: inline-block;width: 10px;height: 10px;background-color: rgb(252, 79, 82);"></span>
+							<span style="color:rgb(252, 79, 82);font-size: 12px;">解套服务</span>
+						</p>
+						<p
+							style="border-bottom: 1px double #000000;border-top:1px double #000000 ;line-height: 32px;font-size: 18px;color: rgb(0,0,0);font-weight: 600;">
+							自己账户历史遗留问题如何解决</p>
+						<p style="color: rgb(115,113,113);font-weight: 400;">
+							加入内部可以与老师团队可以进行交流，教您解套的技术方法.
+						</p>
+						<p style="margin-top: 20px;">同时给您制定解套方案，结合与牛共舞软件高抛低吸，逐渐解套</p>
+					</div>
+				</div>
+				<strong class="wow animate__animated animate__slideInLeft">三、【与牛共舞智能投顾】服务介绍</strong>
+				<div class="cjp">
+					<p>静态视频课程随时可看，陈建平、孙腾、程超老师亲自授课，让你从股市小白成长到拥有自己独立交易理念的合格投资者。</p>
+					<div class="wow animate__animated animate__backInUp">
+						<img src="resource/images/img7.jpg" style="margin:20px 0 10px 0 ;">
+						<p>陈建平老师《短线23大绝招》教您如何拥有自己的综合分析体系</p>
+					</div>
+				</div>
+				<div class="cjp wow animate__animated animate__backInUp">
+					<img src="resource/images/img8.jpg" style="margin:20px 0 10px 0 ;">
+					<p>孙腾老师系列课程教您如何精准把握市场主线和最强龙头</p>
+				</div>
+				<div class="cjp wow animate__animated animate__backInUp">
+					<img src="resource/images/img9.jpg" style="margin:20px 0 10px 0 ;">
+					<p>程超老师教您如果用我们与牛共舞软件把握到最佳买卖点</p>
+				</div>
+				<strong class="wow animate__animated animate__slideInLeft">四、加入须知</strong>
+				<div class="join">
+					<div class="box wow animate__animated animate__slideInLeft">
+						<div class="lefts">
+							<span class="col"></span>
+							<span>加入与牛共舞团队，支付12600元一个季度服务费用</span>
+						</div>
+						<div class="rights">
+							<img src="resource/images/fwfy.png">
+						</div>
+					</div>
+					<div class="box wow animate__animated animate__slideInLeft">
+						<div class="lefts">
+							<span class="col"></span>
+							<span>服务期：一个季度</span>
+						</div>
+						<div class="rights">
+							<img src="resource/images/fwq.png">
+						</div>
+					</div>
+					<div class="box wow animate__animated animate__slideInLeft">
+						<div class="lefts">
+							<span class="col"></span>
+							<span>无需更换现有证券账户，无操作资金门槛，自由交易，轻松学习</span>
+						</div>
+						<div class="rights">
+							<img src="resource/images/wxgh.png">
+						</div>
+					</div>
+					<div class="box wow animate__animated animate__slideInLeft">
+						<div class="lefts">
+							<span class="col"></span>
+							<span>一次付款，服务期内无任何其他新增费用</span>
+						</div>
+						<div class="rights">
+							<img src="resource/images/ycxfk.png">
+						</div>
+					</div>
+					<div class="box last_box wow animate__animated animate__slideInLeft">
+						<div class="lefts">
+							<span class="col"></span>
+							<span>5、不做分成，无另外收费</span>
+						</div>
+						<div class="rights">
+							<img src="resource/images/bzfc.png">
+						</div>
+					</div>
+				</div>
+
+				<strong class="wow animate__animated animate__slideInLeft">五、加Q&A </strong>
+				<p class="wow animate__animated animate__slideInLeft"><span class="ques">Q：内部是怎么通知服务的？</span></p>
+				<p><span
+						class="ans wow animate__animated animate__slideInRight">A：每周结合课程教学分享（含教学买卖点，从开始关注到取消关注，内部都会全程跟踪，给您提供无忧服务）</span>
+				</p>
+				<img src="resource/images/hb.jpg">
+				<p class="wow animate__animated animate__slideInLeft"><span class="ques">Q：没时间看节目，看盘选股怎么办？</span></p>
+				<p><span class="ans wow animate__animated animate__slideInRight">A：我们APP有弹窗功能，同时教学案例会有更新，看到后参考着用1-2分钟跟随学习就行。晚间您也可以再进行视频学习或者回顾一天的直播室交流内容，一天盘中重点不错过。同时我们还给您配备了专业资深助理服务，第一时间给您传达老师的观点和建议
+					</span></p>
+				<p class="wow animate__animated animate__slideInLeft"><span class="ques">Q：担心老师教学风格不适合怎么办？</span></p>
+				<p><span
+						class="ans wow animate__animated animate__slideInRight">A：我们与牛共舞是以陈建平、孙腾、程超老师为首的专业教学团队，团队内的每位老师都有自己擅长的教学领域和风格，无论你喜欢稳健的中长线，还是短平快的短线风格，相信都会有适合您风格的老师供您选择。</span>
+				</p>
+				<img src="resource/images/img11.jpg">
+				<p><span class="ans wow animate__animated animate__slideInRight"
+						style="text-indent: 0;">【与牛共舞】团队老师精通方向介绍，可以根据偏好选择</span></p>
+				<p class="wow animate__animated animate__slideInLeft">
+					<span class="ques">Q：怎么办理你们的服务</span>
+				</p>
+				<p>
+					<span
+						class="ans wow animate__animated animate__slideInRight">A：选择对应版本→对公付款签订合同→提交档案→正式开通服务→享受内部专业服务</span>
+				</p>
+				<img src="resource/images/img12.jpg">
+			</div>
+		</div>
+		<section class="imgzoom_pack">
+			<div class="imgzoom_img"><img src="" /></div>
+		</section>
+	</body>
+	<script type="text/javascript" src="http://res.wx.qq.com/open/js/jweixin-1.6.0.js"></script>
+	<script type="text/javascript">
+		let [title, link] = [document.title, window.location.href];
+		let imgUrl = 'http://cashroll.tdtz888.com/article/m_qydzfw/resource/images/img1.jpg'
+		let desc = "恭喜喜提26岁"
+		$.ajax({
+			type: 'get',
+			url: 'http://cashroll.tdtz888.com/article/demo.php?fullUrl=' + location.href.split('#')[0],
+			data: {
+				title: title
+			},
+			success: function(res) {
+				res = JSON.parse(res)
+				var timestamp = Date.parse(new Date())
+				wx.config({
+					debug: false, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印
+					appId: 'wxe08b02ea874fe009', // 必填，公众号的唯一标识
+					timestamp: res.timestamp, // 必填，生成签名的时间戳
+					nonceStr: res.nonceStr, // 必填，生成签名的随机串
+					signature: res.signature, // 必填，签名
+					jsApiList: ['onMenuShareAppMessage', 'onMenuShareTimeline', 'updateTimelineShareData',
+						'updateAppMessageShareData'
+					]
+				});
+				wx.ready(function(res) {
+					audio.play();
+					//手机端用
+					wx.updateAppMessageShareData({
+						title: title,
+						desc: desc,
+						link: link,
+						imgUrl: imgUrl,
+						success: function(res) {
+							console.log(2)
+						}
+					})
+					wx.onMenuShareAppMessage({
+						title: title,
+						desc: desc,
+						link: link,
+						imgUrl: imgUrl,
+						success: function(res) {
+							console.log(2)
+						}
+					})
+					wx.updateTimelineShareData({
+						title: title,
+						link: link,
+						imgUrl: imgUrl,
+						trigger: function(res) {},
+						success: function(res) {},
+						cancel: function(res) {},
+						fail: function(res) {}
+					})
+					wx.onMenuShareTimeline({
+						title: title,
+						link: link,
+						imgUrl: imgUrl,
+						trigger: function(res) {},
+						success: function(res) {},
+						cancel: function(res) {},
+						fail: function(res) {}
+					})
+				})
+			}
+		})
+		var audio = document.getElementById("music");
+		var music_con = document.getElementById("music_con");
+		var flage = true;
+
+		function PlayAudio() {
+			audio.load(); // iOS 9  需要load一下, 否则直接play无效
+			audio.play(); // iOS 7/8 需要play一下
+		}
+		audio.addEventListener('play', function() {
+			// 当 audio 能够播放后, 移除这个事件
+			window.removeEventListener('touchstart', PlayAudio, false);
+		}, false);
+		window.addEventListener('touchstart', PlayAudio, false);
+		audio.play();
+		music_con.onclick = function() {
+			if (flage) {
+				flage = false;
+				this.src = 'resource/images/iconflase.png';
+				this.style.animationPlayState = 'paused';
+				audio.pause();
+			} else {
+				flage = true;
+				audio.play();
+				this.style.animationPlayState = 'running';
+				this.src = 'resource/images/icon.png';
+			}
+		}
+	</script>
+
+	<script type="text/javascript" src="resource/js/wow.min.js"></script>
+	<script type="text/javascript">
+		new WOW().init();
+	</script>
+</html>
